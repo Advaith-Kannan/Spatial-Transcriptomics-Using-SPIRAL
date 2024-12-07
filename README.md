@@ -19,7 +19,7 @@ This repository contains the implementation of SPIRAL for spatial transcriptomic
   - A spot-gene matrix.
   - Spatial coordinates (x, y).
 
-##### Both datasets are available in the following drive folder: [link](https://drive.google.com/drive/folders/1GllYHqgeRihs9-rzl1aPSl-uXwyWH4tm?usp=sharing)
+#### Both datasets are available in the following drive folder: [link](https://drive.google.com/drive/folders/1GllYHqgeRihs9-rzl1aPSl-uXwyWH4tm?usp=sharing)
 ---
 
 ### **SPIRAL**
@@ -39,7 +39,7 @@ In this project, SPIRAL was applied to both MERFISH and OSMFISH datasets. Its ro
 
 ### **Repository Structure**
 All files are provided in `Files/`
-- `Dataset1.ipynb`, `Dataset2.ipynb` : Jupyter notebooks for preprocessing, analysis, and visualization. Clustering steps are included in the RMD files. 
+- `Dataset1.ipynb`, `Dataset2.ipynb` : Jupyter notebooks for preprocessing, analysis, and visualization. Clustering steps are included in the Rmd files. 
 - `Dataset1.py`, `dataset2.py`: Python scripts to reproduce clustering results and generate required outputs.
 - `R-File-DS1.Rmd`, `R-File-DS2.Rmd`: Since SPIRAL requires clustering steps to be performed on R, these are provided here as well. 
 
