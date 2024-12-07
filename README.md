@@ -3,7 +3,7 @@
 
 ## Spatial Transcriptomics Using SPIRAL
 
-This repository contains the implementation of SPIRAL for spatial transcriptomics (SRT) datasets. SPIRAL is a novel algorithm for efficient spatial domain identification. The code is designed to process and analyze two datasets: MERFISH and OSMFISH.
+This repository contains the implementation of SPIRAL for spatially resolved transcriptomics (SRT) datasets. SPIRAL is a novel algorithm for efficient spatial domain identification. The code is designed to process and analyze two datasets: MERFISH and OSMFISH.
 
 ### **Datasets**
 
