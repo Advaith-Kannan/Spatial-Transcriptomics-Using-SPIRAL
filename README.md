@@ -1,9 +1,9 @@
 
 # README
 
-## Spatial Transcriptomics Clustering Assignment
+## Spatial Transcriptomics Using SPIRAL
 
-This repository contains the implementation of clustering methods for spatial transcriptomics (SRT) datasets, including SPIRAL, a novel algorithm for efficient spatial domain identification. The code is designed to process and analyze two datasets: MERFISH and OSMFISH.
+This repository contains the implementation of SPIRAL for spatial transcriptomics (SRT) datasets. SPIRAL is a novel algorithm for efficient spatial domain identification. The code is designed to process and analyze two datasets: MERFISH and OSMFISH.
 
 ### **Datasets**
 
@@ -19,8 +19,8 @@ This repository contains the implementation of clustering methods for spatial tr
   - A spot-gene matrix.
   - Spatial coordinates (x, y).
 
-Both datasets are available via links provided in the assignment instructions.
-
+Both datasets are available in the following drive folder: 
+[link]([https://drive.google.com/drive/folders/1GllYHqgeRihs9-rzl1aPSl-uXwyWH4tm?usp=sharing ])
 ---
 
 ### **SPIRAL**
@@ -34,15 +34,15 @@ SPIRAL (Spatially-aware Integration and Removal of Artifacts in Local domains) i
 3. **Generalization**: Demonstrates strong performance on unseen datasets while maintaining spatial coherence.
 
 #### **Performance**
-In this assignment, SPIRAL was applied to both MERFISH and OSMFISH datasets. Its robustness in spatial domain preservation can be observed based on the clusters formed on both of these datasets. 
+In this project, SPIRAL was applied to both MERFISH and OSMFISH datasets. Its robustness in spatial domain preservation can be observed based on the clusters formed on both of these datasets. 
 
 ---
 
 ### **Repository Structure**
 All files are provided in `Files/`
 - `Dataset1.ipynb`, `Dataset2.ipynb` : Jupyter notebooks for preprocessing, analysis, and visualization. Clustering steps are included in the RMD files. 
-- `Dataset1.py`, `Dataset2.py`: Python scripts to reproduce clustering results and generate required outputs.
-- `R-File-Dataset1.rmd`, `R-File-Dataset2.rmd`: Since SPIRAL requires clustering steps to be performed on R, these are provided here as well. 
+- `Dataset1.py`, `dataset2.py`: Python scripts to reproduce clustering results and generate required outputs.
+- `R-File-DS1.Rmd`, `R-File-DS2.Rmd`: Since SPIRAL requires clustering steps to be performed on R, these are provided here as well. 
 
 ### **Getting Started**
 #### **Prerequisites**
