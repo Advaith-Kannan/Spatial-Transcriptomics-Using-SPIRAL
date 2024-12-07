@@ -43,12 +43,8 @@ All files are provided in `Files/`
 - `Dataset1.py`, `dataset2.py`: Python scripts to reproduce clustering results and generate required outputs.
 - `R-File-DS1.Rmd`, `R-File-DS2.Rmd`: Since SPIRAL requires clustering steps to be performed on R, these are provided here as well. 
 
-### **Getting Started**
+### **Environment**
 #### **Prerequisites**
 - Python 3.8+
 - Required Python libraries specified in `requirements.txt`
-
-#### **Run Instructions**
-1. Preprocess datasets using the provided preprocessing notebook.
-2. Execute the SPIRAL pipeline to generate clustering results. This will require the usage of the provided rmd files too. 
-3. Visualize spatial feature plots using the visualization scripts.
+- R 4.2.0+
