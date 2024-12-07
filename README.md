@@ -19,7 +19,7 @@ This repository contains the implementation of SPIRAL for spatial transcriptomic
   - A spot-gene matrix.
   - Spatial coordinates (x, y).
 
-Both datasets are available in the following drive folder: [link]([https://drive.google.com/drive/folders/1GllYHqgeRihs9-rzl1aPSl-uXwyWH4tm?usp=sharing ])
+Both datasets are available in the following drive folder: [link](https://drive.google.com/drive/folders/1GllYHqgeRihs9-rzl1aPSl-uXwyWH4tm?usp=sharing)
 ---
 
 ### **SPIRAL**
